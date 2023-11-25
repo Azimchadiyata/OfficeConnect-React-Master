@@ -1,0 +1,41 @@
+.CommonTable {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+.CommonTable th {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+  color: black;
+  text-align: center;
+  border: none;
+}
+/* // background: #def3fa;*/
+.CommonTable td {
+  text-align: center;
+  line-height: 20px;
+  align-items: center;
+  object-fit: cover;
+  padding: 2px;
+}
+
+/* // background: #def3fa;*/
+.CommonTable td {
+  text-align: center;
+  line-height: 20px;
+  border: 1px solid gray;
+  border-left: hidden;
+  border-right: hidden;
+  align-items: center;
+}
+
+.CommonTable tr:first-child > td {
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid gray;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  align-items: center;
+}
